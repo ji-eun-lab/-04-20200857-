@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;}
+  
+body{font-family:"돋움";}
+  
+header {
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;}
+  
+nav{
+    margin: 10px;}
+  
+nav ul{
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    padding: 10px 0;}
+  
+nav ul li{
+    display: inline;
+    padding: 0 10px;
+    letter-spacing: 10px;}
+  
+nav ul li a:hover{
+    text-decoration: underline;}
+  
+  
+#content_box {
+      padding-top: 50px;
+    }
+#content_box h3 {
+      float: left;
+      margin-left: 50px;
+    }
+#content_box p {
+      float: right;
+      margin-right: 20px;
+    }
+.items {
+      width: 232px;
+      margin: 40px 0 0 25px;
+      float: left;
+    }
+.items li {
+      font-family: "돋움";
+      color: #666666;
+      list-style:none;q
+    }
+.items .a {
+      font-weight: bold;
+      color: black;
+      margin-top: 20px;
+    }
+.items .b {
+      font-weight: bold;
+      color: black;
+      margin-top: 5px;
+    }
+.items .b span {
+      color: #a26f59;
+    }
+.items .c {
+      font-size: 12px;
+      margin-top: 25px;
+    }
+  
