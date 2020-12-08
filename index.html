@@ -1,98 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My portfolio </title>
-    <link rel="stylesheet" type="text/css" href="style3.css">
+    <title> My webpage </title>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" type="text/css" href="style5.css">
   </head>
-
+  
   <body>
     
-    <header> <!---제목-->
-      <h1> 나의 포트폴리오 </h1>
-      <p>
-        2020년 가을학기 웹프로그래밍 최종실습
-      </p>
+    <header>
+      <h1> 태블릿 필기 속지 공유</h1><a href = "최종과제.html"></a></h1>
     </header>
 
-    <div class="wrapper">
-   
-      <div class="navbar">  <!--페이지 내 네비게이션 바-->
-      <br>
-       <a href="#life">About Me</a>
-       <a href="#after"> Interests </a>
-       <a href="#photo"> Photo </a>
-       </div>
+    <nav>
+      <ul>
 
-    <div class="container"> <!--컨테이너 / 섹션 1 -->
-        <article id="life">
-        <h2> About me </h2>
-        <p> 2001년 12월 31일 오후 5시에 경기도 하남시에서 태어났다 </p>
-        <p> 어린이집은 다니지 않았고, 2005년 아이사랑 미술유치원에 들어가게 됐다. </p>
-        <p> 2008년 신평초등학교에 입학하고, 초등학생 땐 공부를 거의 하지 않았다. 단원평가를 20점 받은 적도 있다. </p>
-        <p> 2014년 신평중학교에 입학하고, 공부를 잘하기 시작했다. 사춘기는 오지 않았고, 15살 때 전과목에서 하나 틀리기도 했다. </p>
-        <p> 내신 193점으로 중학교를 졸업했고, 와부고를 가려다가 결국 내신을 따기 위해 2017년 일반고등학교인 풍산고등학교에 입학했다.</p>
-        <p> 고등학교를 갔더니 나보다 잘하는 애들이 많아서 충격을 받고, 결국 내가 공부를 매우 못한다는 것을 깨닫게 된다.</p>
-        <p> 남들보다 머리가 안좋다는 걸 깨닫고, 남들보다 훨씬 더 시간을 많이 쏟고 노력했다. </p>
-        <p> 2018년, 생기부에 진로를 뭘쓸까 고민하다가 물류관리사라는 직업을 알게 되었고, 목표 학과는 산업공학과로 정했다. </p>
-        <p> 성적이 안좋기 때문에 활동을 정말 열심히 해서 생기부 한줄 한줄을 써가며 학생부 종합을 준비했다.</p>
-        <p> 5개를 학생부 종합으로 넣었고, 5개 모두 1차를 붙고, 결국 2번째로 원하는 대학교인 성신여자대학교에 오게 되었다. </p>
-        <p> 노트북에 성신여자대학교 로고를 붙여두고, 핸드폰 배경화면이 아직까지 성신여자대학교 사진일 정도로 학교를 매우 사랑하고, 만족한 삶을 살고 있다. </p>
-      </article>
+
+        <li>속지 게시판</li>
+        <li>속지자료 등록</li>
+     </ul>
+   </nav>
+
+   <section id="content_box">
+    <div class="box">
+      <h3>전체 상품</h3>
+      <p> 인기도순 | 평점높은순 | 최신등록순</p>
+      <div class="clear"></div>
+  
+      <ul class="items">
+        <li><img src="곰돌이 푸우.jpg" width = "150" height = "150"></li>
+        <li class="a">곰돌이 푸우</li>
+        <li class="b">3,000원</li>
+        <li class="c">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
+      </ul>
+      <ul class="items">
+        <li><img src="만년 다이어리.jpg" width = "150" height = "150"></li>
+        <li class="a">만년 다이어리</li>
+        <li class="b">2,000원</li>
+        <li class="c">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
+      </ul>
+      <ul class="items">
+        <li><img src="일기장.jpg" width = "150" height = "150"></li>
+        <li class="a">일기장</li>
+        <li class="b">1,500원</li>
+        <li class="c">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
+      </ul>
+      <ul class="items">
+        <li><img src="데일리 플래너.jpg" width = "150" height = "150"></li>
+        <li class="a">데일리 플래너</li>
+        <li class="b">3,000원</li>
+        <li class="c">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
+      </ul>
+      <ul class="items">
+        <li><img src="영화권 메모지.jpg" width = "150" height = "150"></li>
+        <li class="a">영화권 메모지</li>
+        <li class="b">2,500원</li>
+        <li class="c"">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
+      </ul>
+      
+
+
+      </ul>
+      
     </div>
+  
 
-    <div class="container">
-        <article id="after"> <!--섹션 2 -->
-          <h2> Interests </h2>
-          <p> 드라마와 아이돌에 관심이 매우 많다. 고등학교 때까진 공부하느라 바빠서 볼 여유가 없었는데, </p>
-          <p> 입시가 끝나고서부터 너무 할게 없어서 아이돌을 좋아하고, 모든 한국 드라마를 봤다. </p>
-          <p> 특히 인상 깊은 드라마로는 김비서가 왜그럴까, 쌈마이웨이, 구르미 그린 달빛이 있다. </p>
-          <p> 아이돌은 대부분 다 좋아하며, 아스트로, AB6IX, 여자아이들, 이달의 소녀, 스테이씨 등을 좋아한다. </p>
-          <p> 친구들과 술 먹는 것을 좋아하며, 술을 좋아하는 것도 있지만, 친구들과 진솔한 얘기를 나누고 친구들 취한걸 보는 것을 즐겨한다.  </p>
-          <p> 그리고 음식 먹는 것을 좋아하고, 남친과 함께 매일 매일 뭘 먹을지 고민한다. 한식을 특히 좋아한다.</p>
-        </article> 
-    </div>
-
-    <h2> Photo </h2>
-    <article id="photo">
-         <div class="main-container"> <!--섹션 3 -->
-              
-            <div class="grid-container">
-                  <a href="#"> <img src="이달의소녀.jpg"
-                                                 alt="red panda lying on brown tree branch">
-                  </a>  </div>
-            <div class="grid-container">
-                <a href="#"> <img src="증명사진.jpg"the liver building, livepool UK">
-                </a>   </div>
-            <div class="grid-container">
-                <a href="#"><img src="성신여대.jpg" 
-                                               alt="red panda lying on brown tree branch">
-                </a>  </div>
-             
-            <div class="grid-container">
-                <a href="#">
-                      <img src="김비서가 왜그럴까.jpg" alt="blue and brown steel bridge">
-                </a>  </div>
-            <div class="grid-container">
-                <a href="#"><img src="물류관리사.jpg" 
-                                               alt="red panda lying on brown tree branch">
-                </a> </div>
-            <div class="grid-container">
-                <a href="#">
-                      <img src="술.jpg" alt="A tree under blue sky">
-           
-                </a> </div>
-        </div>
-        
-           
-    </article>
-    </div>
-
-
-    <div class ="footer">  <!--푸터 -->
-        <P> &copy; 20200857 박지은 </P>
-        </div>
-
-    </body>
     
-</html>
+
+    
+
